@@ -1,0 +1,10 @@
+next js é o melhor framework da atualidade para usar no frontend?
+razao seria ssr?
+
+---x---x---x---x---x---x---x---x---x---x---x---x---x---x
+
+tera typescript e js durante o curso
+
+o que é next js?
+
+framework da biblioteca mais famosa do mundo (react)
