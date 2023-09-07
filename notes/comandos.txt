@@ -1,0 +1,6 @@
+cntrl + shift + k  = deleta linha
+
+
+trabalhar com extensao jsx melhora a velocidade de desenvolvimento
+
+h1.flex ja sai com display flex no tailwind, se passar mt parametro ele n aceita
