@@ -20,3 +20,10 @@ vue.js e angular usam dois pares de chaves para fazerem chamadas no jsx
 testechamada = <h1>paragrafo teste</h1>
 //no caso do nextjs somente é usado 1
 
+//so relembrando que se eu tratar aqui embaixo a span o push nao vai com o num + operador ternario
+
+const span = <span>{num}{num < numero ? "," : ""}</span>
+lista.push(span)
+
+
+
