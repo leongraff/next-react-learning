@@ -11,7 +11,7 @@ function addlista(numero) {
     return lista
 }
 export default function lista() {
-    const retorna = addlista(10)
+    const retorna = addlista(45)
     return (
         <div className="flex flex-col justify-center items-center text-4xl">
             {retorna}

@@ -1,0 +1,25 @@
+.azul {
+    background-color: #03a;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+
+}
+
+.vermelha {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+
+}

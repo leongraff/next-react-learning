@@ -1,3 +1,5 @@
+import Titulo from "../../../components/Titulo";
+
 var numeros = [24, 33, 4, 511, 533, 612, 7165];
 var titletest = <h1>isso é um teste de chamada</h1>
 
@@ -7,9 +9,12 @@ export default function jsxteste2() {
     return (
         <div className="flex items-center text-4xl justify-center p-8 flex-col">
             hello man isso é um {variavel}
+
             <h1 className="text-4xl">o maior numero é {Math.max(...numeros)}, blz?</h1>
             <h1 className="text-4xl">está na média? resposta: {media()}</h1>
             <br></br>
+
+            <Titulo />
             <br></br>
             {titletest}
         </div>

@@ -1,0 +1,60 @@
+componentes: 2 tipos.
+funcionais  (vem de funçoes) e de classes
+----
+
+export default é para que padronize exportações no react, não sendo regra
+nao usando o default, a importação em outro arquivo tem que ser pelo nome correto
+import { nomeCorreto } from './pastacorreta'
+
+----
+
+React nao navega entre os arquivos de forma padrao (automatica), mas o next sim
+
+
+-----------------------
+-----------------------
+componentes e atributos para instanciar
+-----------------------
+
+instanciar um componente é chama-lo em outro arquivo jsx
+
+é possivel, ao insstanciar um componente, usar parametros para mudar o valor do mesmo
+esses parametros irão ter a visibilidade configurada no proprio componente.
+
+<Titulo='zezinho'/>
+/\ instancia o componente com os atributos e chama os atributos de objeto dentro do componente {com chaves} na 
+tag que achar melhor
+
+parametro={true} pode ser passado para definir entre a escolha de um elemento e outro
+ou somente parametro na tag ja traz true, so pelo fato de estar ali
+
+----------------
+----------------
+
+props é o padrao para usar propriedades em um componente
+
+---
+
+next so deixa importar css na pagino do app? nao
+pode importar direto na page
+
+----
+
+sobre css - 1vh  = 1viewport
+monitor = 900px
+1vh = 9px
+
+----------
+
+props é somente leitura (read-only)
+
+----------
+
+é possivel aplicar estilos com base em variaveis js com duplo parenteses
+esses atributos js servem como se fosse um tailwind com double parenteses
+é possivel aplicar estilos condicionais definindo nas props do componente qual chamada de atributo define se é true or false
+
+-------------------------------------
+
+
+

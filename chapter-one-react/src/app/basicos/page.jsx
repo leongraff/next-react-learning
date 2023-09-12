@@ -1,8 +1,10 @@
-import primeiro from "./primeiro"
+//import primeiro from "./primeiro"
+
+
 
 export default function hello() {
 
-    const testejsx = <h1>helllo!!</h1>
+    // const testejsx = <h1>helllo!!</h1>
     return (
         <div className="text-4xl flex flex-col justify-center items-center p-4 m-4 uppercase font-serif">
             i rock at my 1st class bitch
@@ -12,8 +14,4 @@ export default function hello() {
         </div>
     )
 }
-/*
 
-
-
-*/
