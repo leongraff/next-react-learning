@@ -35,8 +35,8 @@ props é o padrao para usar propriedades em um componente
 
 ---
 
-next so deixa importar css na pagino do app? nao
-pode importar direto na page
+next so deixa importar css na pagino do app? sim, do layourt sei layourt
+
 
 ----
 
@@ -56,5 +56,5 @@ esses atributos js servem como se fosse um tailwind com double parenteses
 
 -------------------------------------
 
-
+por favor, COMPONENTES SEMPRE COM LETRA MAIUSCULA!!!!!!!!!!!!!!!!!!!!!!!
 
