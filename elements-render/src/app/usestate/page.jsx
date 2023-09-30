@@ -8,13 +8,8 @@ import { useState } from "react";
 
 export default function usando() {
 
-    const arrayX = useState(0);
-    let x = arrayX[0]
-    const alterarX = arrayX[1];
-
-    const arrayY = useState(0);
-    let y = arrayY[0]
-    const alterarY = arrayY[1];
+    const [x, alterarX] = useState(0);
+    const [y, alterarY] = useState(0);
 
     function retornaEixo(evento) {
         alterarX(evento.clientX)
